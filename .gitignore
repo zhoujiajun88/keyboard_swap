@@ -1,0 +1,50 @@
+# Build outputs
+build/
+x64/
+KeyboardSwap/x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+*.res
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Local runtime config
+keymap.json
+keymap.json.tmp
+
+# Release packages created locally
+release/
+*.zip
+*.7z
+
+# Design notes and non-source planning material
+docs/design/
+design/
+notes/
+TECHNICAL_PLAN.md
+*_mockup*.png
+*mockup*.png
+*wireframe*.psd
+*wireframe*.fig
+*design*.md
+
+# Visual scratch assets not required by the project file
+edited-corner-badge-source.png
+KeyboardSwap/app-icon-preview.png
+KeyboardSwap/app-icon-transparent-checker.png
+
+# Visual Studio user state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb

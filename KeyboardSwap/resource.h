@@ -1,0 +1,20 @@
+#pragma once
+
+#define IDI_APP_ICON 1
+#define IDR_KEYBOARD_PNG 101
+#define IDR_BADGE_PNG 102
+#define ID_TRAY 201
+
+#define WM_TRAYICON (WM_APP + 1)
+#define WM_KEY_TEST_FLASH (WM_APP + 2)
+#define TIMER_BLINK 1
+#define TIMER_FINISH 2
+#define TIMER_KEY_FADE 3
+
+#define IDM_TRAY_AUTORUN 40001
+#define IDM_TRAY_ENABLE 40002
+#define IDM_TRAY_SHOW 40003
+#define IDM_TRAY_EXIT 40004
+#define IDM_TRAY_LANG_ZH 40005
+#define IDM_TRAY_LANG_EN 40006
+#define IDM_TRAY_LANG_ZHT 40007
