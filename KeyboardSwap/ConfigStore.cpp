@@ -48,7 +48,7 @@ void ConfigStore::Load(KeyMapping& mapping, bool& enabled, std::wstring& languag
 
 void ConfigStore::Save(const KeyMapping& mapping, bool enabled, const std::wstring& languageCode) const {
     std::ostringstream json;
-    json << "{\n  \"version\": \"1.1\",\n  \"enabled\": " << (enabled ? "true" : "false") << ",\n";
+    json << "{\n  \"version\": \"1.2.0\",\n  \"enabled\": " << (enabled ? "true" : "false") << ",\n";
     if (!languageCode.empty()) {
         json << "  \"language\": \"" << WideToUtf8(languageCode) << "\",\n";
     }

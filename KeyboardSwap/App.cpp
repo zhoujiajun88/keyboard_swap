@@ -13,7 +13,6 @@ int App::Run() {
 
     config_.Load(mapping_, enabled_, languageCode_);
     i18n_.SetLanguage(languageCode_);
-    config_.Save(mapping_, enabled_, languageCode_);
     window_ = std::make_unique<MainWindow>(instance_, i18n_, layout_, mapping_, config_, enabled_, languageCode_);
     if (!window_->Create(startInTray_)) {
         if (gdiplusToken_) Gdiplus::GdiplusShutdown(gdiplusToken_);

@@ -1,6 +1,10 @@
 # Keyboard Swap
 
+当前版本：`1.2.0`
+
 Keyboard Swap 是一个 Windows 键盘映射工具，用于在图形界面中选择按键并配置按键替换规则。
+
+![Keyboard Swap 主界面](screenshot_main.png)
 
 ## 使用说明
 
